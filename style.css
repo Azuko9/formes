@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+section{
+    width:30vw;
+    height: 30vw;
+    border-radius: 5px;
+    background-color: aquamarine;
+  
+}
+
+#oneForm{
+    background-color: #140A82;
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.rond{
+    background-color:#0099CC;
+    border-radius: 50%;
+}
+
+.rond1{
+    width: 60%;
+    height: 60%;
+}
+
+.rond2{
+    width: 30%;
+    height: 30%;
+}
+
+.rond3{
+    background-color: #140A82;
+    width: 50%;
+    height: 50%;
+}
+
+#rectangle{
+    background-color: #0099CC;
+    position: relative;
+    width: 60%;
+    height: 4%;
+    z-index: 2;
+    bottom: 51%;
+    left: 19%;
+    rotate: -45deg;
+
+    
+    
+}
+.support{
+    
+    margin: 1%;
+    width: 48%;
+    height: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support2{
+    background-color: #0099CC;
+    width: 60%;
+    height: 60%;
+    flex-wrap: wrap;
+}
+
+.support3{
+ 
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    rotate: 45deg;
+}
